@@ -1,0 +1,90 @@
+body {
+	font-size: 16px;
+	color: sienna;
+	background-color: forestgreen;
+}
+
+/*****************/
+/****** Nav ******/
+/*****************/
+
+#header-nav {
+	background-color: lawngreen;
+	border-radius: 0;
+	border: 0;
+	color: sienna;
+	border-bottom: 2px solid sienna;
+	height: 72px;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.container {
+	margin-left: 8px;
+}
+
+.navbar-brand h1, #nav-list a {
+	color: sienna;
+	margin: 0;
+}
+
+button {
+	height: 40px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+	background-color: forestgreen;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: transparent;
+}
+
+.navbar-header button.navbar-toggle {
+	border: 2px solid sienna;
+}
+
+.navbar-header .icon-bar {
+	border: 1px solid sienna;
+}
+
+#nav-list {
+	background-color: lawngreen;
+	border: 1px solid sienna;
+	clear: both;
+}
+
+#nav-list a {
+	text-align: center;
+	border: 1px solid sienna;
+}
+
+#nav-list a:hover {
+	background-color: white;
+}
+
+/**************************/
+/****** Page Content ******/
+/**************************/
+
+h2 {
+	color: lawngreen;
+}
+
+h2 #menu {
+	clear: both;
+}
+
+section.stuff {
+	background-color: lawngreen;
+	color: sienna;
+	padding: 16px;
+}
+
+h3 {
+	margin-top: 0;
+}
